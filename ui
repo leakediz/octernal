@@ -782,7 +782,7 @@ do
                 --
 local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
                 if (tick() - Tick) > 0.15 then
-                    watermark_title.Text = string.format("external | ".. os.date("%b. %d, %Y") " | " ..ver)
+                    watermark_title.Text = string.format("external | ".. os.date("%b. %d, %Y"))
                     window.watermark:UpdateSize()
                     --
                     Tick = tick()
